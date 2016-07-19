@@ -22,6 +22,12 @@
 		0BC229C11D3DE8660035742B /* UIScreen+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC229B31D3DE8660035742B /* UIScreen+CZAddition.m */; };
 		0BC229C21D3DE8660035742B /* UIView+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC229B51D3DE8660035742B /* UIView+CZAddition.m */; };
 		0BC229C31D3DE8660035742B /* UIViewController+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC229B71D3DE8660035742B /* UIViewController+CZAddition.m */; };
+		0BC229C61D3DEA750035742B /* WBMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC229C51D3DEA750035742B /* WBMainViewController.m */; };
+		0BC229C91D3DEAB00035742B /* WBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC229C81D3DEAB00035742B /* WBHomeViewController.m */; };
+		0BC229CC1D3DEABD0035742B /* WBMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC229CB1D3DEABD0035742B /* WBMessageViewController.m */; };
+		0BC229CF1D3DEAC70035742B /* WBDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC229CE1D3DEAC70035742B /* WBDiscoverViewController.m */; };
+		0BC229D21D3DEAD00035742B /* WBProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC229D11D3DEAD00035742B /* WBProfileViewController.m */; };
+		0BC229D51D3DEB320035742B /* WBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC229D41D3DEB320035742B /* WBNavigationController.m */; };
 		4FC72D5F3229C07831DDB962 /* libPods-OC-myWB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B43F20BA898983D4B9908E8C /* libPods-OC-myWB.a */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +63,18 @@
 		0BC229B51D3DE8660035742B /* UIView+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CZAddition.m"; sourceTree = "<group>"; };
 		0BC229B61D3DE8660035742B /* UIViewController+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CZAddition.h"; sourceTree = "<group>"; };
 		0BC229B71D3DE8660035742B /* UIViewController+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CZAddition.m"; sourceTree = "<group>"; };
+		0BC229C41D3DEA750035742B /* WBMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBMainViewController.h; sourceTree = "<group>"; };
+		0BC229C51D3DEA750035742B /* WBMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBMainViewController.m; sourceTree = "<group>"; };
+		0BC229C71D3DEAB00035742B /* WBHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBHomeViewController.h; sourceTree = "<group>"; };
+		0BC229C81D3DEAB00035742B /* WBHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBHomeViewController.m; sourceTree = "<group>"; };
+		0BC229CA1D3DEABD0035742B /* WBMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBMessageViewController.h; sourceTree = "<group>"; };
+		0BC229CB1D3DEABD0035742B /* WBMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBMessageViewController.m; sourceTree = "<group>"; };
+		0BC229CD1D3DEAC70035742B /* WBDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBDiscoverViewController.h; sourceTree = "<group>"; };
+		0BC229CE1D3DEAC70035742B /* WBDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBDiscoverViewController.m; sourceTree = "<group>"; };
+		0BC229D01D3DEAD00035742B /* WBProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBProfileViewController.h; sourceTree = "<group>"; };
+		0BC229D11D3DEAD00035742B /* WBProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBProfileViewController.m; sourceTree = "<group>"; };
+		0BC229D31D3DEB320035742B /* WBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBNavigationController.h; sourceTree = "<group>"; };
+		0BC229D41D3DEB320035742B /* WBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBNavigationController.m; sourceTree = "<group>"; };
 		B008153DD4EC6E77B4EFE7F2 /* Pods-OC-myWB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OC-myWB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OC-myWB/Pods-OC-myWB.debug.xcconfig"; sourceTree = "<group>"; };
 		B43F20BA898983D4B9908E8C /* libPods-OC-myWB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OC-myWB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8A6CB6915E7653235157303 /* Pods-OC-myWB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OC-myWB.release.xcconfig"; path = "Pods/Target Support Files/Pods-OC-myWB/Pods-OC-myWB.release.xcconfig"; sourceTree = "<group>"; };
@@ -116,30 +134,32 @@
 		0BC229941D3DE7DD0035742B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				0BC229961D3DE7DD0035742B /* Tools */,
-				0BC229971D3DE7DD0035742B /* View */,
-				0BC2299D1D3DE7DD0035742B /* ViewModel */,
-				0BC229951D3DE7DD0035742B /* Model */,
+				0BC229961D3DE7DD0035742B /* Tools(工具) */,
+				0BC229971D3DE7DD0035742B /* View(视图和控制器) */,
+				0BC2299D1D3DE7DD0035742B /* ViewModel(视图模型) */,
+				0BC229951D3DE7DD0035742B /* Model(模型) */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		0BC229951D3DE7DD0035742B /* Model */ = {
+		0BC229951D3DE7DD0035742B /* Model(模型) */ = {
 			isa = PBXGroup;
 			children = (
 			);
+			name = "Model(模型)";
 			path = Model;
 			sourceTree = "<group>";
 		};
-		0BC229961D3DE7DD0035742B /* Tools */ = {
+		0BC229961D3DE7DD0035742B /* Tools(工具) */ = {
 			isa = PBXGroup;
 			children = (
 				0BC2299E1D3DE8660035742B /* Additions */,
 			);
+			name = "Tools(工具)";
 			path = Tools;
 			sourceTree = "<group>";
 		};
-		0BC229971D3DE7DD0035742B /* View */ = {
+		0BC229971D3DE7DD0035742B /* View(视图和控制器) */ = {
 			isa = PBXGroup;
 			children = (
 				0BC2299A1D3DE7DD0035742B /* Main */,
@@ -148,12 +168,15 @@
 				0BC229981D3DE7DD0035742B /* Discover */,
 				0BC2299C1D3DE7DD0035742B /* Profile */,
 			);
+			name = "View(视图和控制器)";
 			path = View;
 			sourceTree = "<group>";
 		};
 		0BC229981D3DE7DD0035742B /* Discover */ = {
 			isa = PBXGroup;
 			children = (
+				0BC229CD1D3DEAC70035742B /* WBDiscoverViewController.h */,
+				0BC229CE1D3DEAC70035742B /* WBDiscoverViewController.m */,
 			);
 			path = Discover;
 			sourceTree = "<group>";
@@ -161,6 +184,8 @@
 		0BC229991D3DE7DD0035742B /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				0BC229C71D3DEAB00035742B /* WBHomeViewController.h */,
+				0BC229C81D3DEAB00035742B /* WBHomeViewController.m */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -168,6 +193,10 @@
 		0BC2299A1D3DE7DD0035742B /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				0BC229C41D3DEA750035742B /* WBMainViewController.h */,
+				0BC229C51D3DEA750035742B /* WBMainViewController.m */,
+				0BC229D31D3DEB320035742B /* WBNavigationController.h */,
+				0BC229D41D3DEB320035742B /* WBNavigationController.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -175,6 +204,8 @@
 		0BC2299B1D3DE7DD0035742B /* Message */ = {
 			isa = PBXGroup;
 			children = (
+				0BC229CA1D3DEABD0035742B /* WBMessageViewController.h */,
+				0BC229CB1D3DEABD0035742B /* WBMessageViewController.m */,
 			);
 			path = Message;
 			sourceTree = "<group>";
@@ -182,14 +213,17 @@
 		0BC2299C1D3DE7DD0035742B /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				0BC229D01D3DEAD00035742B /* WBProfileViewController.h */,
+				0BC229D11D3DEAD00035742B /* WBProfileViewController.m */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
 		};
-		0BC2299D1D3DE7DD0035742B /* ViewModel */ = {
+		0BC2299D1D3DE7DD0035742B /* ViewModel(视图模型) */ = {
 			isa = PBXGroup;
 			children = (
 			);
+			name = "ViewModel(视图模型)";
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
@@ -364,14 +398,20 @@
 			files = (
 				0BC229BF1D3DE8660035742B /* UIColor+CZAddition.m in Sources */,
 				0BC229B91D3DE8660035742B /* NSAttributedString+CZAdditon.m in Sources */,
+				0BC229CC1D3DEABD0035742B /* WBMessageViewController.m in Sources */,
+				0BC229C91D3DEAB00035742B /* WBHomeViewController.m in Sources */,
 				0BC229BD1D3DE8660035742B /* NSString+CZPath.m in Sources */,
 				0BC229B81D3DE8660035742B /* NSArray+Log.m in Sources */,
 				0BC229821D3DE3180035742B /* AppDelegate.m in Sources */,
 				0BC229BE1D3DE8660035742B /* UIButton+CZAddition.m in Sources */,
+				0BC229D51D3DEB320035742B /* WBNavigationController.m in Sources */,
 				0BC229C21D3DE8660035742B /* UIView+CZAddition.m in Sources */,
 				0BC229BC1D3DE8660035742B /* NSString+CZHash.m in Sources */,
 				0BC229C01D3DE8660035742B /* UILabel+CZAddition.m in Sources */,
+				0BC229D21D3DEAD00035742B /* WBProfileViewController.m in Sources */,
 				0BC229BB1D3DE8660035742B /* NSString+CZBase64.m in Sources */,
+				0BC229CF1D3DEAC70035742B /* WBDiscoverViewController.m in Sources */,
+				0BC229C61D3DEA750035742B /* WBMainViewController.m in Sources */,
 				0BC229BA1D3DE8660035742B /* NSObject+CZRuntime.m in Sources */,
 				0BC229C31D3DE8660035742B /* UIViewController+CZAddition.m in Sources */,
 				0BC229C11D3DE8660035742B /* UIScreen+CZAddition.m in Sources */,
